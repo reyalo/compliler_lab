@@ -1,0 +1,4 @@
+terminal should be cmd
+2. terminal directory 
+
+3. .o .lib .dll .so all are same 

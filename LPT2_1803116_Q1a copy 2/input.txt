@@ -1,0 +1,2 @@
+assume XX : INTEGER;
+if (XX < 3.0) XX++;

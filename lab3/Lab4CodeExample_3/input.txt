@@ -1,0 +1,8 @@
+main FUNC()
+suru
+dhori i <- type INT
+dhori j <- type INT
+i <- 7
+j <- 8 jog j
+PRINT( j )
+sesh

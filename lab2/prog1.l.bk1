@@ -1,0 +1,26 @@
+%option noyywrap
+
+%{
+
+%}
+letter [A-Za-z]
+unds [_]
+digit [0-9]
+
+%%
+"I" {printf("%s->Noun\n",yytext);}
+"Eat" {printf("%s->Verb\n",yytext);}
+"Rice" {printf("%s->Object\n",yytext);}
+"RUET"|"KUET" {printf("%s->Varsity\n",yytext);}
+"CSE"|"EEE" {printf("%s->Department\n",yytext);}
+({letter}|{unds})({letter}|{unds}|{digit})* {printf("%s->Identifier\n",yytext);} //([A-Za-z|_])([A-Za-z|0-9|_])* {printf("%s->Identifier\n",yytext);}
+"18"|"19" {printf("%s->Series\n",yytext);}
+([0-9])([0-9]) {printf("%s->Series\n",yytext);}
+[0-9]+ {printf("%s->Series\n",yytext);}
+. {printf("%s->Unknown\n",yytext);}
+%%
+
+int main(){
+  yylex();
+  return 0;
+}

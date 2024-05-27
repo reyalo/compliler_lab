@@ -1,0 +1,11 @@
+co3:Frontend Compiler
+a.lexical 30%
+b.Syntax 40%
+c.Semantic 30%
+
+procedure:
+take input >> lexical analysis/ mane input venge token toiri kore lexar e segulu include korte hobe
+
+*** lexar upor theke dekhe niche jay
+mane if else if er moto
+tai serial maintai korte hobe

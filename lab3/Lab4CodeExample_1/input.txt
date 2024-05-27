@@ -1,0 +1,6 @@
+int a;
+char a;
+if(b > 3)
+{
+
+}

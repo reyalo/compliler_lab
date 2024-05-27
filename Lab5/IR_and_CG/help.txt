@@ -1,0 +1,4 @@
+1.token check in lexer.i
+2.check before return task
+3.parser check
+4.

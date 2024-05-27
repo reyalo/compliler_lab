@@ -1,0 +1,9 @@
+dim -> DIM
+A -> ID
+as -> AS
+integer -> INTEGER
+dim -> DIM
+A -> ID
+as -> AS
+integer -> INTEGER
+Parsing finished!
